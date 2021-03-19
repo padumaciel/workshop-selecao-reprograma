@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    margin: 0 ;
+  }
+  
+  html {
+    height: 100%;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  
+  .caixa-header {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url('../img/banner-bg-2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    height: 80vh;
+  }
+  
+  .btn-branco{
+    background-color: white;
+    text-align: center;
+    padding: 15px;
+    width: 180px;
+    border-radius: 80px;
+  }
+.efeito{ 
+    border: none;
+    color: white;
+    width: 150px;
+    font-size: 20px;
+    line-height: 30px;
+    border-radius: 80px;
+    position: relative;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all 400ms ease;
+
+}
+.efeito-1{
+    background: #770d77;
+    color: white;
+}
+.efeito-1:hover{
+    background: #d65cc2
+}
+/*====== SECAO DE CONTEUDO ======*/
+
+h2 {
+    font-size: 36px;
+    color: #d65cc2;
+    margin: 20px 90px;
+
+}
+.caixa-secao-conteudo{
+margin-top: 40px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.classe-somente-conteudo{
+    display: flex;
+    margin: 25px 150px;
+}
+.btn-roxo{
+    padding: 15px;
+    width: 190px;
+    border-radius: 80px;
+    color: white;
+}
+.caixa-texto-sobre-mim{
+    margin-bottom: 50px;
+    color: #525252;
+}
+.caixa-sobre-mim{
+    width: 50%;
+}
+.caixa-lista-sobre-mim{
+    width: 20%;
+    margin-left: 60px;
+    color: #770d77;
+}
+.caixa-lista-sobre-mim-2{
+    width: 20%;
+    margin-left: 10px;
+    color: #770d77;
+}
+
+/* ==== redes sociais ==== */
+
+.caixa-item-rede-social{
+    text-align: center;
+    background-color: #770d77;
+    width: 180px;
+    height: 180px;
+    margin-right: 40px;
+    padding: 20px;
+    margin-top: 50px;
+}
+.lista-habilidades{
+    color: #7c7c7c
+}
+.caixa-mae-rede-social{
+    display: flex;
+    justify-content: center;
+}
+.link-rede-social{
+    color: white;
+}
+footer{
+    text-align: center;
+    color: #7c7c7c;
+padding: 20px;
+}
